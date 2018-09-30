@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Compras.SaraivaActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/centovinteoito" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/caixafeita"
+
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/destaques"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/h1"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/h1" />
+
+    <ImageView
+        android:id="@+id/g2"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/h2"
+        />
+
+    <ImageView
+        android:id="@+id/g3"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/h3"
+        />
+
+    <ImageView
+        android:id="@+id/g4"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/h4"
+        />
+
+</LinearLayout>
